@@ -1,0 +1,18 @@
+{
+  "name": "js-projects",
+  "version": "1.0.0",
+  "description": "native js website",
+  "main": "src/js_scripts/index.js",
+  "scripts": {
+    "serve": "parcel ./src/index.html -p 2301 --open",
+    "build": "parcel build ./src/index.html --no-source-maps"
+  },
+  "keywords": [
+    "5semestr"
+  ],
+  "author": "Vyacheslav D. Tarasenko",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5"
+  }
+}
